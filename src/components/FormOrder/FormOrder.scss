@@ -1,0 +1,30 @@
+.form_order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 400px;
+  height: 300px;
+}
+.input {
+  margin-left: 10px;
+}
+
+.input_range {
+  font-size: 14px;
+  color: rgb(134, 134, 148);
+}
+.Label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.diametr {
+  flex-direction: row;
+}
+.btn_submit {
+  font-weight: 500;
+  font-size: 26px;
+  color: rgb(253, 253, 255);
+  background-color: rgba(0, 0, 255, 0.726);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
