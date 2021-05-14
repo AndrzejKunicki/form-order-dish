@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/form-order-dish/static/css/main.56aaceda.chunk.css",
-    "main.js": "/form-order-dish/static/js/main.49b407fb.chunk.js",
-    "main.js.map": "/form-order-dish/static/js/main.49b407fb.chunk.js.map",
+    "main.css": "/form-order-dish/static/css/main.d4e3b3a6.chunk.css",
+    "main.js": "/form-order-dish/static/js/main.8d061344.chunk.js",
+    "main.js.map": "/form-order-dish/static/js/main.8d061344.chunk.js.map",
     "runtime-main.js": "/form-order-dish/static/js/runtime-main.a3b26463.js",
     "runtime-main.js.map": "/form-order-dish/static/js/runtime-main.a3b26463.js.map",
     "static/css/2.217134b3.chunk.css": "/form-order-dish/static/css/2.217134b3.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a2e468d7.chunk.js.map": "/form-order-dish/static/js/2.a2e468d7.chunk.js.map",
     "index.html": "/form-order-dish/index.html",
     "static/css/2.217134b3.chunk.css.map": "/form-order-dish/static/css/2.217134b3.chunk.css.map",
-    "static/css/main.56aaceda.chunk.css.map": "/form-order-dish/static/css/main.56aaceda.chunk.css.map",
+    "static/css/main.d4e3b3a6.chunk.css.map": "/form-order-dish/static/css/main.d4e3b3a6.chunk.css.map",
     "static/js/2.a2e468d7.chunk.js.LICENSE.txt": "/form-order-dish/static/js/2.a2e468d7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/form-order-dish/static/media/buterbrody_sandwiches_picca_pizza_vegetables_zeleny_ovoschi.c882ddfb.jpg",
     "static/media/notifications.css": "/form-order-dish/static/media/notification.c5d9251e.ttf"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.a3b26463.js",
     "static/css/2.217134b3.chunk.css",
     "static/js/2.a2e468d7.chunk.js",
-    "static/css/main.56aaceda.chunk.css",
-    "static/js/main.49b407fb.chunk.js"
+    "static/css/main.d4e3b3a6.chunk.css",
+    "static/js/main.8d061344.chunk.js"
   ]
 }
