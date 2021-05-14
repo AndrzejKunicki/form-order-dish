@@ -84,18 +84,8 @@ class FormOrder extends Component {
 
   handleSubmit = async (e) => {
     e.preventDefault();
+
     const { name, preparation_time, type } = this.state;
-    if (name === "") {
-      this.createNotification("info");
-      return;
-    }
-    if (
-      this.state.pizza.no_of_slices > 8 ||
-      this.state.sandwich.no_of_slices > 8
-    ) {
-      this.createNotification("warning");
-      return;
-    }
 
     const credentials = {
       name,
@@ -103,6 +93,19 @@ class FormOrder extends Component {
       type,
       ...this.state[type],
     };
+
+    if (name === "") {
+      this.createNotification("info");
+      return;
+    }
+
+    if (
+      this.state.pizza.no_of_slices > 8 ||
+      this.state.sandwich.no_of_slices > 8
+    ) {
+      this.createNotification("warning");
+      return;
+    }
 
     try {
       await axios.post(
@@ -246,7 +249,6 @@ class FormOrder extends Component {
                 />
                 10
               </label>
-
               <p className="label">
                 Preparation time: {this.state.soup.preparation_time}
               </p>
